@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fake Store Products</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Mahsulot Katalogi</h1>
+    <div class="controls">
+      <input type="text" id="search" placeholder="Mahsulot qidirish...">
+      <select id="categoryFilter">
+        <option value="all">Barcha kategoriyalar</option>
+      </select>
+      <select id="priceSort">
+        <option value="default">Narx bo'yicha saralash</option>
+        <option value="asc">O'sish tartibida </option>
+        <option value="desc">Kamayish tartibida</option>
+      </select>
+    </div>
+  </header>
+
+  <div id="loader" class="loader"></div>
+
+  <main id="product-list" class="product-list"></main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
